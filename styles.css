@@ -9,7 +9,7 @@ body{
 
 .container{
     width: 40%;
-    height: 90vh;
+    height: 100%;
     background-color: white;
 }
 /*Header Styles*/
@@ -70,7 +70,26 @@ body{
 }
 .evacuationHackSection h2{
     text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 .evacuationHackSection p{
-    padding: 0 10px;
+    padding: 5px 10px;
+    margin: 0;
+}
+.evacuationTip{
+    margin: 0; 
+}
+.evacuationTip h2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+.evacuationTip p{
+    padding: 5px 10px;
+    margin: 0;
+}
+.rmcSection{
+    color: rgb(217, 47, 47);
+    text-align: center;
 }
