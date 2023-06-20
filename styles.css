@@ -156,3 +156,14 @@ body{
     padding: 20px;
     font-size: 16px;
 }
+.mapImage{
+    width: 100%;
+}
+.regionalOfficesSection{
+    background-color: rgb(232, 224, 224);
+}
+.regionalOfficesSection p{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
+}
