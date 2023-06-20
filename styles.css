@@ -64,7 +64,7 @@ body{
     font-size:x-small;
 }
 .evacuationHackSection{
-    background-color: lightblue;
+    background-color: rgb(232, 224, 224);
     height: 30%;
     margin-top: 100px;
 }
@@ -92,4 +92,67 @@ body{
 .rmcSection{
     color: rgb(217, 47, 47);
     text-align: center;
+}
+.articlesSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.articlesSection p{
+    padding: 5px;
+}
+.articlesSection h4{
+    padding: 5px;
+    font-size:20px;
+}
+.waterDamage{
+    grid-column: 1;
+    grid-row: 1;
+    background-color: rgb(232, 224, 224);
+}
+.fireSmokeDamage{
+    grid-column: 2;
+    grid-row: 1;
+    
+}
+.moldRemediation{
+    grid-column: 1;
+    grid-row: 2;
+}
+.environmentalRemediation{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: rgb(232, 224, 224);
+}
+.electronicsEquipment{
+    grid-column: 1;
+    grid-row: 3;
+    background-color: rgb(232, 224, 224);
+}
+.construction{
+    grid-column: 2;
+    grid-row: 3;
+}
+.learnMoreButton{
+    background-color: rgb(217, 47, 47);
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 4px 6px;
+}
+.allServicesButton{
+    background-color: black;
+    color: white;
+    display: block;
+    margin: 30px auto;
+    font-size: 20px;
+    padding: 10px 15px;
+}
+.branchManagerSection{
+    background-color: rgb(232, 224, 224);
+}
+.branchManagerSection p{
+    text-align: center;
+    padding: 20px;
+    font-size: 16px;
 }
